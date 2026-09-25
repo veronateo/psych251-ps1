@@ -1,2 +1,7 @@
 `summary(cars)`
-`run(simulation)`
+`head(mtcars)`
+
+```{r}
+library(ggplot2)
+ggplot(cars, aes(x = speed, y = dist)) + geom_point()
+```
